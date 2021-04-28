@@ -22,4 +22,4 @@ COPY --from=go-builder /app/golang-nextjs-portable .
 
 ENTRYPOINT ["./golang-nextjs-portable"]
 
-EXPOSE 8080
+EXPOSE 8000
