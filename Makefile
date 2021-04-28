@@ -6,4 +6,6 @@ build-nextjs:
 
 .PHONY: build
 build: build-nextjs
-	go build .
+	rm golang-nextjs-portable; \
+	go build . ; \
+	./golang-nextjs-portable
